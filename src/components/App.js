@@ -1,4 +1,4 @@
-import './App.css';
+import '../css/App.scss';
 import RecipeList from './RecipeList';
 
 function App() {
@@ -15,7 +15,7 @@ const sampleReceipes = [
     name: 'Plain Chicken',
     servings: 2,
     cookTime: '1:45',
-    instructions: '1. Put salt on chicken\n 2. Put chicken in oven\n 3. Eat chicken',
+    instructions: '1. Put salt on chicken\n2. Put chicken in oven\n3. Eat chicken',
     ingredients: [
       {
         id: 1, 
@@ -34,7 +34,7 @@ const sampleReceipes = [
     name: 'Plain Pork',
     servings: 4,
     cookTime: '1:45',
-    instructions: '1. Put salt on pork\n 2. Put pork in oven\n 3. Eat pork',
+    instructions: '1. Put salt on pork\n2. Put pork in oven\n3. Eat pork',
     ingredients: [
       {
         id: 1, 

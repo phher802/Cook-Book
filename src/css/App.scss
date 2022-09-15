@@ -1,0 +1,23 @@
+@import 'font.scss';
+@import 'recipe-list.scss';
+@import 'buttons.scss';
+@import 'recipe.scss';
+@import 'ingredient-list.scss';
+
+
+*, *::before, *::after {
+  font-family: 'Kumbh Sans', sans-serif;
+}
+
+html {
+  font-size: 20px;
+}
+
+body {
+  padding: 0;
+  margin: 2rem 0 0 1rem;
+}
+
+.mr-1 {
+  margin-right: 5px;
+}
