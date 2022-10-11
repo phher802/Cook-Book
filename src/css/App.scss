@@ -3,10 +3,11 @@
 @import 'buttons.scss';
 @import 'recipe.scss';
 @import 'ingredient-list.scss';
-
+@import 'recipeEdit.scss';
 
 *, *::before, *::after {
   font-family: 'Kumbh Sans', sans-serif;
+  box-sizing: border-box; //make the width defined in .recipe-edit class to be accumulation of padding, margin, etc. so it doesn't overflow the width that is defined
 }
 
 html {
